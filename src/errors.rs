@@ -4,7 +4,7 @@
 pub type Result<T> = core::result::Result<T, Error>;
 
 /// Error types
-#[derive(Debug, Eq, PartialEq)]
+#[derive(Debug)]
 #[non_exhaustive]
 pub enum Error {
     /// Invalid padding scheme.
